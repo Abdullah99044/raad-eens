@@ -1,10 +1,8 @@
 import random
 i = random.randint(1,1000)
-print(i)
-
 #structuur
 
-raads = 10
+raads = 9
 punten = 1
 
 a = i + 50
@@ -27,7 +25,6 @@ while raads == 0 or punten < 20:
         i = random.randint(1,1000)
         if punten == 20:
             break
-        print(i)
     elif raad == 00:
         break
     elif raad > e :
